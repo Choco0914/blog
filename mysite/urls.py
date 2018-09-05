@@ -1,21 +1,12 @@
-"""mysite URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/2.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
 from django.contrib import admin
-from django.urls import path
-
+from django.urls import path, re_path, include
+# 정규식을 이욯가ㅣ 위해 re_path를 임포트하고 다른 url을 참조하기위해 include를
+# 임포트 해 왔다
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    re_path(r'^admin/', admin.site.urls),
+    re_path(r'', include('blog.urls'))
 ]
+"""
+파이썬에서 정규 표현식을 작성할 때는 항상 문자열 앞에 r을 붙인다. 이는 파이썬에게는
+별 의미가 없지만, 파이썬에게 문자열에 특수 문자를 있다는 것을 알려준다
+"""
