@@ -12,7 +12,7 @@ This is Basic django project
 
 5. View : https://github.com/Choco0914/blog/tree/view
 
-6. Template :
+6. Template : https://github.com/Choco0914/blog/tree/template
 
 7. Expend_Template :
 
