@@ -8,7 +8,7 @@ This is Basic django project
 
 3. setting admin : https://github.com/Choco0914/blog/tree/admin
 
-4. Url :
+4. Url : https://github.com/Choco0914/blog/tree/url
 
 5. View :
 
