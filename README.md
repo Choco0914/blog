@@ -14,11 +14,11 @@ This is Basic django project
 
 6. Template : https://github.com/Choco0914/blog/tree/template
 
-7. Expend_Template :
+7. Expend_Template : https://github.com/Choco0914/blog/tree/expend_template
 
-8. Expend_App :
+8. Expend_App : https://github.com/Choco0914/blog/tree/expend_app
 
-9. Form :
+9. Form : https://github.com/Choco0914/blog/tree/form
 
 ------------------------------------------------------------------------------------
 Distributed using pythonanywherer
