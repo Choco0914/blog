@@ -10,7 +10,7 @@ This is Basic django project
 
 4. Url : https://github.com/Choco0914/blog/tree/url
 
-5. View :
+5. View : https://github.com/Choco0914/blog/tree/view
 
 6. Template :
 
